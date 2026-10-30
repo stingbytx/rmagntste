@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Page Not Found – Remy Agent</title>
+<meta name="description" content="The page you were looking for does not exist." />
+<link rel="canonical" href="https://remyagent.cc/404.html" />
+<meta name="robots" content="noindex, follow" />
+<meta name="author" content="DotcomAI" />
+<meta name="theme-color" content="#efece6" />
+<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Remy Agent" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:title" content="Page Not Found – Remy Agent" />
+<meta property="og:description" content="The page you were looking for does not exist." />
+<meta property="og:url" content="https://remyagent.cc/404.html" />
+<meta property="og:image" content="https://remyagent.cc/og-image.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="Remy Agent — Thinking Machines" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Page Not Found – Remy Agent" />
+<meta name="twitter:description" content="The page you were looking for does not exist." />
+<meta name="twitter:image" content="https://remyagent.cc/og-image.png" />
+<meta name="twitter:image:alt" content="Remy Agent — Thinking Machines" />
+<script>document.documentElement.className="js";</script>
+<link rel="stylesheet" href="/assets/css/site.css" />
+</head>
+<body>
+<header class="topbar" id="topbar">
+  <span class="tb-link"><b>New:</b>&nbsp;Remy Agent V1 Is Here - The Home for AI Voice Agents&nbsp;↗</span>
+  <button class="tb-x" id="topbarClose" aria-label="Dismiss announcement">×</button>
+</header>
+<nav class="nav" id="siteNav" aria-label="Main">
+  <a class="brand" href="/" aria-label="Remy Agent home">
+    <svg viewBox="0 0 27 27" width="27" height="27" aria-hidden="true">
+      <defs>
+        <linearGradient id="lgBrand" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0" stop-color="#ffb347"/>
+          <stop offset=".5" stop-color="#ff5a5f"/>
+          <stop offset="1" stop-color="#ff3d8b"/>
+        </linearGradient>
+      </defs>
+      <path d="M21.6 7.1H12.5a6.75 6.75 0 0 0 0 13.5h9.1" fill="none" stroke="url(#lgBrand)" stroke-width="2.1" stroke-linecap="round"/>
+      <circle cx="12.9" cy="11.4" r="1.45" fill="#141414"/>
+      <circle cx="17.2" cy="11.4" r="1.45" fill="#141414"/>
+    </svg>
+    <span>REMY AGENT</span>
+  </a>
+  <div class="menu">
+    <a href="/#product">Solutions<i class="car">▾</i></a>
+    <a href="/#learn">Learn<i class="car">▾</i></a>
+    <a href="/about/">About</a>
+    <a href="/terms/">Terms</a>
+    <a href="/privacy/">Privacy</a>
+    <a href="mailto:help@remyagent.cc">Contact us</a>
+  </div>
+  <div class="navCta"><a class="btn" href="https://chat.remyagent.cc" target="_blank" rel="noopener"><span>•• LAUNCH REMY</span></a></div>
+</nav>
+<main class="page">
+  <article class="nf">
+    <p class="kick" style="font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--dim);margin:0 0 18px">404</p>
+    <h1>Page not found.</h1>
+    <p>The page you were looking for doesn’t exist or has moved.</p>
+    <a class="btn btnWide" href="./"><span>← BACK TO REMY AGENT</span></a>
+  </article>
+</main>
+<footer class="footer">
+  <span class="fbrand">Remy Agent · 2026</span>
+  <nav class="footLinks" aria-label="Footer">
+    <a href="/">Home</a>
+    <a href="/about/">About</a>
+    <a href="/terms/">Terms</a>
+    <a href="/privacy/">Privacy</a>
+    <a href="mailto:help@remyagent.cc">Contact</a>
+    <a href="https://chat.remyagent.cc" target="_blank" rel="noopener">Launch Remy ↗</a>
+  </nav>
+</footer>
+<script>
+(function(){
+  var b=document.body, closed=false;
+  function sync(){ b.classList.toggle('chrome-hidden', closed || window.scrollY > 40); }
+  window.addEventListener('scroll', sync, {passive:true});
+  var x=document.getElementById('topbarClose');
+  if (x) x.addEventListener('click', function(){ closed=true; sync(); });
+  sync();
+  var els=[].slice.call(document.querySelectorAll('.rv'));
+  els.forEach(function(el,i){ el.style.transitionDelay=(Math.min(i,6)*0.1)+'s'; });
+  if ('IntersectionObserver' in window) {
+    var io=new IntersectionObserver(function(es){
+      es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('on'); io.unobserve(e.target); } });
+    }, {threshold:.15});
+    els.forEach(function(el){ io.observe(el); });
+  } else { els.forEach(function(el){ el.classList.add('on'); }); }
+})();
+</script>
+</body>
+</html>
