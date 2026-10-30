@@ -2,7 +2,7 @@
 
 Static multi-page site for Remy Agent, the web-based AI voice agent.
 
-Pages: / (home) · /about/ · /terms/ · /privacy/ · 404
+Pages: / (home) · /about/ · /contact/ · /terms/ · /privacy/ · 404
 
 Everything is local — no CDN, no remote fonts, no image or video files.
 The robot, the gradient face ring and the glowing face are drawn in code.
@@ -11,6 +11,7 @@ The robot, the gradient face ring and the glowing face are drawn in code.
 
 index.html                  homepage (loads the 3D scene)
 about/index.html            about page
+contact/index.html          contact page
 terms/index.html            terms of service
 privacy/index.html          privacy policy
 404.html                    not-found page
